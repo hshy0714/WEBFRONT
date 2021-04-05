@@ -93,7 +93,25 @@
 
       .seller img {
         border-radius: 20px; /* 네 귀퉁이 모두에 둥글기 적용 */
+
+        border-radius: 10px 20px 30px 40px; /* 좌측위 우측위 오른쪽아래 왼쪽아래 순: 시계 방향으로 적용 */
+        
+        border-top-left-radius: 100px; /* 특정 방향을 정해서 이용도 가능 */
+
+        border-radius: 50%; /* 비율에 의한 모서리 다듬기도 가능 */
+
+        /* display 속성 : 공간 점유 방식을 변경
+         none, block, inline, inline-block
+         none -> 공간 자체를 점유하지 않음
+         */
+         /* display: none; */
+         /* visibility 속성 : 표시 여부만 결정
+          visible, hidden
+          공간은 그대로 점유 */
+         /* visibility: hidden */
+         
       }
+
     </style>
   </head>
   
