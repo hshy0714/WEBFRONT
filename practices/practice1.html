@@ -62,16 +62,18 @@
 		border-style: dotted;
 	}
 
+	/* 단계 10. 짝수번째 게시물의 배경색을 변경 */
+	tr:nth-child(2n+1) {
+		background-color: #E8ECF6;
+	}
+
 	/* 단계 9. 마우스가 올라갔을 때의 background 처리 */
 	tr:hover {
 		background-color: #fc6;
 		cursor: pointer;
 	}
 
-	/* 단계 10. 짝수번째 게시물의 배경색을 변경 */
-	tr:nth-child(2n+1) {
-		background-color: #E8ECF6;
-	}
+	/* 스타일의 적용 순서에 유의 10번하고 9번해야됌 9,10 하면 9가 작용 안함 */
 </style>
 </head>
 <body>
